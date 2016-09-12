@@ -1,19 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <script src="js/jquery.js"></script>
-  <script src="js/tabletop.js"></script>
-	<script src="js/newsquiz.min.js"></script>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
+    <link href="assets/style.css" rel="stylesheet" media="screen" type="text/css">
+    <title>Allergiapeli</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="quiz"></div>
+    </div>
 
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <script src="assets/jquery.js" type="text/javascript"></script>
+    <script src="assets/tabletop.js" type="text/javascript"></script>
+    <script src="assets/script.js" type="text/javascript"></script>
 
-	<link href="css/style.css" rel="stylesheet" media="screen">
-</head>
-<body>
-  <div id="quiz"></div>
-  <script>
-    var quiz = jQuery('#quiz').quiz('1B1T2PePVSENQxnIRf6mgBuFbe1UfGwKBCUBtwPjWj9s');
-  </script>
-</body>
+    <script type="text/javascript">
+        var quiz = jQuery('#quiz').quiz('1B1T2PePVSENQxnIRf6mgBuFbe1UfGwKBCUBtwPjWj9s');
+    </script>
+
+  </body>
 </html>
