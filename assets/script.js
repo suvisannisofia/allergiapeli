@@ -2,9 +2,8 @@
 (function($) {
 
     function score (nCorrect, nQuestions) {
-        var answersWord = nCorrect === 1 ? 'answer' : 'answers';
-        return 'You got <span class="correct-answers">' + nCorrect + '</span> ' +
-               'correct ' + answersWord + ' out of ' + nQuestions + ' questions';
+        return 'Sait <span class="correct-answers">' + nCorrect + '</span> ' +
+               'oikein ' + nQuestions + ' kysymyksestä';
     }
 
     function scores(nQuestions) {
